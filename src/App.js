@@ -4,7 +4,7 @@ export default () => {
 
     return (
         <div>
-            <Book />
+            <Book title="Viatge a la lluna" />
         </div>
     );
 };
