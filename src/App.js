@@ -5,7 +5,7 @@ export default () => {
 
     const bookComponents = booksData.map(book => {
         return (
-            <Book title={book.title} author={book.author} />
+            <Book key={book.id} title={book.title} author={book.author} />
         );
     })
 
